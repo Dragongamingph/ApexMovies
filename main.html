@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Movies
+    </title>
+    <link rel="shortcut icon" href="logo2.png" type="image">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+    
+</head>
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 1rem;
+    background-color: rgba(88, 88, 88, 0.1);
+    border: solid rgba(90, 90, 90, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+body{
+    background-color: black;
+   
+    
+
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+
+
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3 fixed-top " aria-label="Ninth navbar example">
+      
+      <div class="container-lg">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" >
+          <img class="bi me-2" width="140" height="100" role="img" src="logo2.png"/>
+        </a>  
+        <a class="navbar-brand me-5" href="#"><strong></strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample07XL">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-lg">
+              <li class="nav-item">
+                <a href="#scrollspyHeading1" class="nav-link active text-danger fw-bold" aria-current="page" href="main.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#scrollspyHeading2" class="nav-link fw-bold">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#scrollspyHeading3" class="nav-link fw-bold">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control border border-1 border-danger" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+
+      <div id="scrollspyHeading1" class="container col-xxl-8 px-4 py-5 my-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://maven-uploads.s3.amazonaws.com/120386748/projects/netflix%20image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3"><strong>Discover the Pinnacle of Entertainment</strong></h1>
+            <p class="lead">Where Cinematic Excellence Meets Unrivaled Adventures. Immerse Yourself in a Tapestry of Blockbusters, Hidden Gems, and Timeless Classics. Your Ultimate Destination for Movie Magic, Unleashing a World of Spectacle and Emotion, Frame by Frame, on Our Homepage.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2 bg-danger border-danger" href="#scrollspyHeading2">Learn more</a>
+
+            </div>
+          </div>
+        </div>
+
+             
+       
+      </div>
+      <div class="b-example-divider" id="scrollspyHeading2"></div>
+    
+      <div class="row featurette px-5 py-5 my-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1"><strong>Personalized Recommendations</strong> <span class="text-muted"></span></h2>
+          <p class="lead">Our Cinematic Explorer harnesses the power of advanced algorithms to analyze your viewing history and preferences, delivering handpicked recommendations tailored to your unique taste in movies</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+  
+        </div>
+      </div>
+  
+      <div class="b-example-divider"></div>
+  
+      <div class="row featurette px-5 py-5 my-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1"><strong>Diverse Genres, One Platform</strong> <span class="text-muted"></span></h2>
+          <p class="lead">Whether you're into heart-pounding action, thought-provoking dramas, laugh-out-loud comedies, or genre-defying masterpieces, Cinematic Explorer ensures a diverse range of options catering to every mood and preference.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKhk6eaZp4csF-IRxESpgf5mNLD0ptlCYP4Y1gNJmhvCtXd-35l7C9kav51LxqB7oSwY&usqp=CAU" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+  
+        </div>
+      </div>
+  
+      <div class="b-example-divider"></div>
+  
+      <div class="row featurette px-5 py-5 my-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1"><strong>Elevate Every Movie Night with Apex Movies</strong><span class="text-muted"></span></h2>
+          <p class="lead"> Apex Movies empowers you to make every movie night a triumphant experience.</p>
+        </div>
+        <div class="col-md-5" >
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://media.tenor.com/CrWdjpM_P8AAAAAC/movies-movie-t-ime.gif" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+  
+        </div>
+      </div>
+
+      <div class="b-example-divider" id="scrollspyHeading3"></div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check" viewBox="0 0 16 16">
+          <title>Check</title>
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </symbol>
+      </svg>
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center py-5 px-5">
+        <h1 class="display-4 fw-normal">Pricing</h1>
+        <p class="fs-5 text-muted">ApexMovies offers a variety of plans to meet your entertainment needs.
+
+          As a Apex member, you are charged monthly on the date you signed up. A ApexMovies account is for people who live together in a single household. Learn more about sharing Netflix.</p>
+      </div>
+   
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center px-5 py-5 ">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-danger">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal text-danger"><strong>Free</strong></h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>
+
+                  Watch on 1 phone or tablet at a time
+                  </li>
+                <li>Download on 1 phone or tablet at a time</li>
+                <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+               
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-danger">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-danger">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal text-danger"><strong>Pro</strong></h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+                <li>Watch on 2 supported devices at a time</li>
+                <li>Watch in Full HD</li>
+               
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-danger">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-danger">
+            <div class="card-header py-3 text-bg-danger border-danger">
+              <h4 class="my-0 fw-normal text-white"><strong> Enterprise</strong></h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+                <li>Watch on 4 supported devices at a time</li>
+                <li>Watch in Ultra HD</li>
+             
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-danger">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <h2 class="display-6 text-center mb-4 text-white">Compare plans</h2>
+  
+      <div class="table-responsive px-5 py-5">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;" class="text-danger">Free</th>
+              <th style="width: 22%;" class="text-danger">Pro</th>
+              <th style="width: 22%;" class="text-danger">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start text-danger">Public</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-danger">Private</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start text-danger" >Permissions</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-danger">Sharing</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-danger">Unlimited members</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start text-danger">Extra security</th>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+  
+      <div class="b-example-divider"></div>
+
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5></h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5></h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5></h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+                <p></p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-danger" type="button">Get Started</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2023 ApexMovies, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>
